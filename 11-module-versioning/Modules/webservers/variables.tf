@@ -20,3 +20,15 @@ variable "instance_type" {
 variable "azs" {
   default = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
 }
+variable "environment" {
+description= "type of environment , prod or stg or dev "
+default="stg"
+}
+
+variable "vpc_id" {
+description = "provide vpc_id"
+}
+
+variable "cluster" {
+
+}
